@@ -1,0 +1,10 @@
+{
+  "_comment": "Скопируйте в config.json и заполните api_key. Файл config.json не коммитить.",
+
+  "llm": {
+    "provider": "gemini",
+    "api_key": "",
+    "model": "gemini-2.5-flash",
+    "base_url": ""
+  }
+}

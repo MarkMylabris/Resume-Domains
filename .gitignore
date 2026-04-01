@@ -1,0 +1,36 @@
+# Secrets and local overrides
+config.json
+.env
+.env.*
+
+# Vendored offline packages (not part of the project source)
+.venv_libs/
+
+# Downloaded model weights cache
+.model_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.venv/
+
+# Legacy experiments and old pipelines
+dev/
+
+# Older embedding artifact (current: domain_embeddings_v7.npz)
+domain_embeddings.npz
+
+# Local assignment handout (not for public repo)
+Тестовое задание.pdf
+
+# Large HH dataset dump (download separately; see README)
+datasets/hh_ru_resumes/*.csv
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
